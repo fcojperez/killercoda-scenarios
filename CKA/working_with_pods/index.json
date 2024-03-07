@@ -1,0 +1,28 @@
+{
+    "title": "Working with Pods",
+    "details": {
+      "intro": {
+        "text": "step0_intro/intro.md",
+        "foreground": "step0_intro/foreground.sh",
+        "background": "step0_intro/background.sh"
+      },
+      "steps": [
+        {
+          "title": "Create a pod",
+          "text": "step1_creating_a_pod/text.md",
+          "verify": "step1_creating_a_pod/verify.sh"
+        },
+        {
+          "title": "Delete a pod",
+          "text": "step2_deleting_a_pod/text.md",
+          "verify": "step2_deleting_a_pod/verify.sh"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
