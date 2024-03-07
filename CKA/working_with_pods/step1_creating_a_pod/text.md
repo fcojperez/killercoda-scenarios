@@ -1,4 +1,6 @@
-# Creating a Pod
+
+
+<br>
 
 We are going to run a pod based on nginx image
 

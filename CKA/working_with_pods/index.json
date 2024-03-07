@@ -13,9 +13,14 @@
           "verify": "step1_creating_a_pod/verify.sh"
         },
         {
+          "title": "Checking out a pod is running",
+          "text": "step2_checking_pod_is_running/text.md",
+          "verify": "step2_checking_pod_is_running/verify.sh"
+        },
+        {
           "title": "Delete a pod",
-          "text": "step2_deleting_a_pod/text.md",
-          "verify": "step2_deleting_a_pod/verify.sh"
+          "text": "step3_deleting_a_pod/text.md",
+          "verify": "step3_deleting_a_pod/verify.sh"
         }
       ],
       "finish": {

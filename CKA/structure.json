@@ -2,6 +2,9 @@
     "title": "CKA",
     "description": "This is a collection of exercises for CKA exam",
     "items": [
-      { "path": "working_with_pods" }
+      { "path": "cka_playground" },
+      { "path": "working_with_pods" },
+      { "path": "node_affinity" },
+      { "path": "pod_affinity" }
     ]
   }

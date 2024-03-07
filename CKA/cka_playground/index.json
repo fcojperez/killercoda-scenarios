@@ -1,0 +1,13 @@
+{
+    "title": "CKA Playground",
+    "details": {
+      "intro": {
+        "text": "step0_intro/intro.md",
+        "foreground": "step0_intro/foreground.sh",
+        "background": "step0_intro/background.sh"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
