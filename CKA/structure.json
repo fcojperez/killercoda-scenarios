@@ -5,6 +5,7 @@
       { "path": "cka_playground" },
       { "path": "working_with_pods" },
       { "path": "node_affinity" },
-      { "path": "pod_affinity" }
+      { "path": "pod_affinity" },
+      { "path": "configuring_redis_with_configmap"}
     ]
   }

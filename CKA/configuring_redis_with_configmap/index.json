@@ -1,0 +1,33 @@
+{
+    "title": "Configuring Redis using a ConfigMap",
+    "details": {
+      "intro": {
+        "text": "step0_intro/intro.md",
+        "foreground": "step0_intro/foreground.sh",
+        "background": "step0_intro/background.sh"
+      },
+      "steps": [
+        {
+          "title": "Real World Example: Configuring Redis using a ConfigMap",
+          "text": "step1_creating_configmap/text.md",
+          "verify": "step1_creating_configmap/verify.sh"
+        },
+        {
+          "title": "Creating a redis pod with ConfigMap and volume data",
+          "text": "step2_creating_pod/text.md",
+          "verify": "step2_creating_pod/verify.sh"
+        },
+        {
+          "title": "Verifying Redis Configuration",
+          "text": "step3_verifying_configuration/text.md",
+          "verify": "step3_verifying_configuration/verify.sh"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
